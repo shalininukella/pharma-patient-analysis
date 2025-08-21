@@ -34,7 +34,8 @@ pharma-patient-analysis/
 │   └── visualize.py           # Generates plots & graphs
 │
 ├── visualizations/
-│   └── churn_dashboard.png    # Final Tableau/Matplotlib dashboard
+│    ├── churn_dashboard.png       # Static screenshot/image for quick viewing
+│    └── churn_dashboard.twbx      # Interactive Tableau workbook (requires Tableau Desktop)
 │
 ├── README.md
 ├── requirements.txt
@@ -120,9 +121,12 @@ python scripts/visualize.py
 
 ## 📊 Dashboard
 
-Final dashboard created in **Tableau**:
+The final interactive dashboard is created using **Tableau** and included as:
 
-![Dashboard](visualizations/churn_dashboard.png)
+- `visualizations/churn_dashboard.twbx` — Tableau workbook (open with Tableau Desktop)
+- `visualizations/churn_dashboard.png` — Static screenshot preview
+
+If you do not have Tableau installed, you can view the dashboard screenshot above.
 
 ---
 
