@@ -1,0 +1,13 @@
+# Core data handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Database
+sqlite3   # Built into Python, but noted for clarity
+
+# (Optional) Jupyter for running notebooks
+jupyter
