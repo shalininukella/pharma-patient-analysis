@@ -121,10 +121,12 @@ python scripts/visualize.py
 
 ## 📊 Dashboard
 
-The final interactive dashboard is created using **Tableau** and included as:
+Final dashboard created in **Tableau**:
 
 - `visualizations/churn_dashboard.twbx` — Tableau workbook (open with Tableau Desktop)
 - `visualizations/churn_dashboard.png` — Static screenshot preview
+
+![Dashboard](visualizations/churn_dashboard.png)
 
 If you do not have Tableau installed, you can view the dashboard screenshot above.
 
